@@ -1,13 +1,100 @@
-section {
-
-    background-color: red;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
-h1 {
+#product-overview {
+    background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    
+}
 
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
     color: white;
-    font-family: sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    background-color: lightgreen;
+    padding: 8px 10px;
+    vertical-align: center;
 }
 
 
+.main-header div {
+    display: inline-block;
+}
+
+
+.main-nav{
+
+    display: inline-block;
+    padding: 2px;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav .main-nav__items .main-nav__item{
+
+    display: inline-block;
+    padding: 0;
+    margin: 0 16px;
+}
+
+.main-header__brand a{
+
+    text-decoration: none;
+    font-size:22px;
+    font-weight: bold;
+}
+
+.main-nav__item a{
+
+    text-decoration: none;
+    color:green;
+    padding: 2px;
+
+
+}
+
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+
+    color:white;
+    border-bottom: solid white 2px;
+
+
+}
+
+.main-nav__item--cta a{
+
+    color:white;
+    background: red;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+
+    color:red;
+    background:white;
+}
+#plans p::first-letter{
+
+  color: red;
+}
