@@ -174,3 +174,70 @@ background: white;
 color:green;
 
 }
+
+
+#key-features{
+
+    background-color: red;
+}
+
+.key-features__list{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+
+.key-feature{
+    display: inline-block;
+    width: 30%;
+}
+
+.key-features__description{
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.key-features__image{
+    
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    background-color: #ffcede;
+    height: 128px;
+    margin: auto;
+
+
+}
+
+.main-footer{
+  background: black;
+  text-align: center;
+  padding: 32px;
+  margin-top: 48px;
+
+}
+
+.main-footer__links{
+    list-style: none;
+}
+
+.main-footer__link{
+
+    display:inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover{
+
+    color: #ccc;
+}
