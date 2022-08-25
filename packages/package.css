@@ -1,0 +1,42 @@
+main {
+
+    padding-top:32px;
+}
+
+
+.package{
+ 
+    width: 80%;
+    border: black solid 4px;
+    border-left: none;
+    margin: 16px 0;
+    padding: 20px;
+    background-color: rgb(191, 231, 191);
+}
+
+.package a{
+     text-decoration: none;
+     display: block;
+     padding: 32px;
+
+}
+
+.package .package__title{
+
+     font-weight: bold;
+     color: black;
+
+}
+
+.package__subtitle{
+
+    color: gray;
+}
+
+.package__description{
+
+    border: #0e4f1f solid 1px;
+    padding: 16px;
+    color: #0e4f1f;
+    font-size: 20px;
+}
