@@ -58,13 +58,14 @@
 
 
 #product-overview {
-    background: url("home_page.png") no-repeat center center fixed;
+    background: url("home_page.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 528px;
     padding: 10px;
     border: 5px solid black;
     margin: 10px;
+    background-position: 10% 80%;
     
 }
 
